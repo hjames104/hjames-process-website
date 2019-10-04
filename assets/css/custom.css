@@ -46,6 +46,21 @@ added to the button in the index html file as well.*/
   clear: both;
 }
 
+#banner{
+  background-image:url(../../images/image20.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h6{
+  font-family: trajan-pro-3, serif;
+font-style: normal;
+font-weight: 200;
+text-transform: uppercase;
+font-size: 35px;
+letter-spacing: 5px;
+}
+
 /* h2{
   text-transform: uppercase;
   letter-spacing: 5px;
