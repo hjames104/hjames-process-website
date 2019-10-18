@@ -34,6 +34,23 @@ added to the button in the index html file as well.*/
 /*********************************************
  Write your css customizations below
  *********************************************/
+
+#header{
+  background-color: #2a363e;
+}
+
+#menu{
+background-color: #2a363e;
+}
+
+#footer{
+background-color: #2a363e;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #2a363e;
+}
+
 .audience{
     float: left;
     margin: 0 1.5em 1em 0;
@@ -52,14 +69,73 @@ added to the button in the index html file as well.*/
   background-position: center;
 }
 
-h6{
+/* h6{
   font-family: trajan-pro-3, serif;
 font-style: normal;
 font-weight: 200;
 text-transform: uppercase;
 font-size: 30px;
 letter-spacing: 5px;
+} */
+
+
+.image.left{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.image.right{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.post.style1 a {
+    color: #b8dfef;
+}
+
+.post.style1 .button.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+    color: #b8dfef !important;
+}
+
+.post.style1.invert{
+      background-color: #6b929e;
+      color: rgba(255, 255, 255, 0.75);
+  }
+
+  .post.style1.invert .image {
+    background-color: #6b929e;
+}
+
+.post.style1.invert .content {
+  background-color: #6b929e;
+}
+
+  .post.style2 a {
+      color: #f4cb64;
+}
+
+.post.style2 .button.alt {
+          background-color: transparent;
+          box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+          color: #f4cb64 !important;
+}
+
+.post.style2.invert {
+              background-color: #2a363e;
+              color: rgba(255, 255, 255, 0.75);
+}
+
+.post.style2.invert .content {
+              background-color: #2a363e;
+              color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+
+/* 3px 3px 10px grey; */
+
+
 
 
 
