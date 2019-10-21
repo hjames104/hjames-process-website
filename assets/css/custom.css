@@ -130,7 +130,22 @@ letter-spacing: 5px;
               color: rgba(255, 255, 255, 0.75);
 }
 
+.image.left.audience{
+  box-shadow: none !important;
+}
 
+#banner h1{
+  font-size: 2.5em;
+}
+
+#banner .button.alt {
+    background-color: #6b929e ;
+    box-shadow: none;
+  }
+
+#banner .button.alt:hover{
+  background-color: #f4cb64 ;
+}
 
 
 /* 3px 3px 10px grey; */
